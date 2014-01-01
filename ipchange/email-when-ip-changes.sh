@@ -1,6 +1,8 @@
 #!/bin/bash
 # sends an email when external IP changes
 
+cd /home/fft/mats-bash-scripts/ipchange/
+
 # Put email address in email.txt
 read EMAIL < email.txt
 
